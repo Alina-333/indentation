@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400" />
-    <link rel="stylesheet" href="style (2).css" />
+    <link rel="stylesheet" href="style.css" />
     <title>indentation</title>
     <meta charset="UTF-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="x-apple-disable-message-reformatting" />
+    <meta name="x-apple-disable-message-reformatting" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-    <div style="display: inline-block; width: 1440px" data-ignore="used only for top most containter width">
+    <!-- <div style="display: inline-block; width: 1440px" data-ignore="used only for top most containter width"> -->
     <div class="main-content-container">
         <div class="article-layout-container">
         <div class="article-container">
@@ -28,7 +28,7 @@
             <div class="flex-container-with-description section-description-container flex-container-with-description:first-child">
                 <p class="section-description-text-style">1.</p>
                 <div class="vertical-align-container">
-                <a href="#chapter one" style="text-decoration: none;">
+                <a href="#chapter_one" style="text-decoration: none;">
                     <p class="section-description-text-style">Отступ задается от предыдущего элемента к следующему</p>
                 </a>
                 <div class="description-container"></div>
@@ -37,7 +37,7 @@
             <div class="flex-container-with-description section-description-container">
                 <p class="section-description-text-style">2.</p>
                 <div class="vertical-align-container">
-                <a href="#chapter two" style="text-decoration: none;">
+                <a href="#chapter_two" style="text-decoration: none;">
                     <p class="section-description-text-style">Отступ задается последнему возможному элементу в DOM-дереве</p>
                 </a>
                 <div class="description-container"></div>
@@ -46,7 +46,7 @@
             <div class="flex-container-with-description section-description-container">
                 <p class="section-description-text-style">3.</p>
                 <div class="vertical-align-container">
-                <a href="#chapter three" style="text-decoration: none;">
+                <a href="#chapter_three" style="text-decoration: none;">
                     <p class="section-description-text-style">Для последнего элемента группы отступ обнуляется</p>
                 </a>
                 <div class="description-container"></div>
@@ -56,9 +56,9 @@
         </div>
         <div class="hierarchical-text-container2">
             <div class="hierarchical-text-container1">
-            <p class="important-text-heading" id="chapter one">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</p>
+            <p class="important-text-heading" id="chapter_one">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</p>
             <div class="important-message-container1">
-                <img src="assets/image_3747a796.png" class="important-text-container2" />
+                <img src="assets/kotiki.png" class="important-text-container2" alt="разные котики в четырех блоках" />
                 <div class="important-message-container2">
                 
                 <p class="important-message-with-margin-from-previous important-message-with-margin-top important-message-with-margin-from-previous:first-child"><span class="important-text-with-margin-direction">ВАЖНО:</span><span class="important-text-with-margin-explanation"> </span><span class="important-note-text-style1">margin</span><span class="important-text-with-margin-explanation"> всегда задают от предыдущего элемента к следующему.</span></p>
@@ -75,46 +75,46 @@
                 <p class="important-message-with-margin-from-previous inner-content-with-padding">Отступы, как правило, делают в направлении от предыдущего элемента к следующему. Так элемент не будет толкать сам себя.</p>
                 <p class="important-message-with-margin-from-previous inner-content-with-padding">Изначально элемент статичен, а его положение может меняться только под воздействием свойств других блоков или свойств родителя.</p>
                 </div>
-                <img src="assets/image_a3e22201.png" class="content-block-with-image" />
+                <img src="assets/kotik2.png" class="content-block-with-image" alt="котик лежит на подоконнике" />
             </div>
             </div>
             <div class="hierarchical-text-container">
-            <p class="hero-title" id="chapter two">Отступ задается последнему возможному элементу в DOM-дереве</p>
+            <p class="hero-title" id="chapter_two">Отступ задается последнему возможному элементу в DOM-дереве</p>
             <p class="text-block-style">Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:</p>
-            <img src="assets/image_8adaad62.png" class="image-cover-display-style" />
-            <img src="assets/image_6063626e.png" class="image-container-with-text" />
+            <img src="assets/kod1.png" class="image-cover-display-style" alt="код страницы следующей картинки" />
+            <img src="assets/recepie1.png" class="image-container-with-text" alt="полезные рецепты список" />
             <p class="important-note-text-style">Отступ делают за счёт соседних элементов, а не дочерних:</p>
             <div class="important-text-container">
-                <img src="assets/image_b0f890ff.png" class="important-text-container1" />
+                <img src="assets/otstupi.png" class="important-text-container1" alt="пример как делать отступы" />
                 <div class="important-message-container">
                 <p class="important-text-divider"><span class="important-text-with-margin-direction">ВАЖНО</span><span class="important-text-with-margin-explanation">: здесь </span><span class="important-note-text-style1">.list-item</span><span class="important-text-with-margin-explanation"> — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.</span></p>
                 </div>
             </div>
             <p class="text-block-style1"><span class="important-text-with-margin-explanation">Казалось бы, можно задать отступ параграфу </span><span class="important-note-text-style1">&lt;p&gt;</span><span class="important-text-with-margin-explanation">, либо обёртке </span><span class="important-note-text-style1">&lt;article&gt;</span><span class="important-text-with-margin-explanation"> для достижения той же цели. Внешне останется все точно также, но так делать не рекомендуется.</span></p>
             <p class="nested-content-text-style">Предыдущий пример был достаточно простым, но бывает вложенность значительно больше.</p>
-            <img src="assets/image_117893f2.png" class="image-container-wide" />
+            <img src="assets/otstupi_sverhu.png" class="image-container-wide" alt="как делать отступы сверху у заголовков" />
             <p class="text-block-style1"><span class="important-text-with-margin-explanation">В случае с заголовком, если ему необходим отступ сверху, последним элементом будет </span><span class="important-note-text-style1">section</span><span class="important-text-with-margin-explanation">. Именно для него задается </span><span class="important-note-text-style1">padding-top</span><span class="important-text-with-margin-explanation">, а не </span><span class="important-note-text-style1">div</span><span class="important-text-with-margin-explanation"> с классом </span><span class="important-note-text-style1">container</span><span class="important-text-with-margin-explanation">. Свойства </span><span class="important-note-text-style1">margin</span><span class="important-text-with-margin-explanation">, которые стоят по умолчанию необходимо обнулить.</span></p>
-            <img src="assets/image_67bf434b.png" class="image-with-margin-spacing" />
+            <img src="assets/otstupi_example.png" class="image-with-margin-spacing" alt="пример как делать отступы сверху у заголовков" />
             <p class="text-block-style">Это необходимо для более простого поиска отступов в будущем — для вас или того, кто будет верстать после вас. Кроме того, возможны серьёзные проблемы при динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.</p>
             </div>
             <div class="recipe-layout-container">
-            <p class="header-title-bold" id="chapter three">Для последнего элемента группы отступ всегда обнуляется</p>
+            <p class="header-title-bold" id="chapter_three">Для последнего элемента группы отступ всегда обнуляется</p>
             <p class="important-note-text-style">Для наглядности возьмём наш предыдущий пример с рецептами</p>
             <p class="recipe-description-text-style">Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.</p>
-            <img src="assets/image_9e0e779d.png" class="image-container-with-text3" />
+            <img src="assets/rasstoianie.png" class="image-container-with-text3" alt="расстояние между списком рецептов одинаковое" />
             <p class="text-block-style1"><span class="important-text-with-margin-explanation">В соответствии со вторым принципом: последний </span><span class="important-note-text-style1">margin</span><span class="important-text-with-margin-explanation"> обнуляется, а нижний отступ задаётся через </span><span class="important-note-text-style1">padding</span><span class="important-text-with-margin-explanation"> для </span><span class="important-note-text-style1">section</span><span class="important-text-with-margin-explanation">. Я чаще всего задаю </span><span class="important-note-text-style1">padding</span><span class="important-text-with-margin-explanation"> для секции с обоих сторон, если расстояние между секциями 100px задаю секциям </span><span class="important-note-text-style1">padding-top:50px</span><span class="important-text-with-margin-explanation"> и </span><span class="important-note-text-style1">padding-bottom:50px</span><span class="important-text-with-margin-explanation">.</span></p>
-            <img src="assets/image_6baf6b50.png" class="image-container-with-text5" />
+            <img src="assets/rasstoianie_kod.png" class="image-container-with-text5" alt="как выгляждит расстояние в списке рецептов в коде" />
             <div class="hierarchical-text-container1">
-                <img src="assets/image_95901486.png" class="full-bleed-image" />
-                <img src="assets/image_cd8d1d33.png" class="image-cover-style" />
+                <img src="assets/kod_spiska.png" class="full-bleed-image" alt="код спсика" />
+                <img src="assets/kod_spiska2.png" class="image-cover-style" alt="продолжение кода списка" />
             </div>
             <p class="recipe-description-text-style1">Для большего понимания рассмотрим другой пример, который часто встречается на практике:</p>
-            <img src="assets/image_5e5e4881.png" class="image-container-with-text1" />
-            <img src="assets/image_105d1dcf.png" class="image-container-with-text2" />
+            <img src="assets/methed.png" class="image-container-with-text1" alt="шапка METHED" />
+            <img src="assets/otstupi_punkti.png" class="image-container-with-text2" alt="отступы между пунктами" />
             <p class="text-block-style">Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами меню задаются так:</p>
-            <img src="assets/image_41b2caa.png" class="image-card-styles" />
+            <img src="assets/otstupi_punkti2.png" class="image-card-styles" alt="пример отступы между пунктами" />
             <p class="important-note-text-style">Советую использовать псевдоклассы :last-child чаще других, например так:</p>
-            <img src="assets/image_d766810.png" class="image-container-with-text4" />
+            <img src="assets/last_child.png" class="image-container-with-text4" alt="подкласс last-child" />
             </div>
             <div class="hierarchical-text-container1">
             <div class="summary-container">
@@ -134,6 +134,5 @@
             </div>
         </div>
         </div>
-    </div>
     </body>
 </html>
